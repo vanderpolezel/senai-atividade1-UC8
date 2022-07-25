@@ -1,0 +1,19 @@
+algoritmo "cadastroEvento"
+var
+dataAtual, dataEvento, dataNascimento, dataMaior18: date
+listaParticipantes: number
+início
+escrever ("digite sua data de nascimento:")
+ler (dataNascimenbto)
+dataMaior18 = dataAtual - dataNascimento
+se dataMaior18 >= 18  então
+escrever ("Lista de Participantes")
+senão
+escrever ("Cadastro não permitido pela idade")
+fimse
+se listaPArticipantes >=100
+escrever ("cadastro não permitido por ter excedito o limite")
+senão
+escrever ("Cadastro efetuado com sucesso!")
+fimse
+fim
